@@ -1,0 +1,248 @@
+{
+  "contractName": "IApes",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "confirmChange",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "ownerOf",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.18+commit.87f61d96\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"confirmChange\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interface/IApes.sol\":\"IApes\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interface/IApes.sol\":{\"keccak256\":\"0x3b152efa675f0e5182597ef71690f12eedaa430495f7139f2221b49c80945485\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://aa4909a03ebdd7822d5ca4f2b958c86cd8659199cbd7db176dfc268c1b0326ea\",\"dweb:/ipfs/QmYzeWXAhp4nvpNdsTsnoPWZAKosp1SX2PJTSXy649rTXF\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\n// solhint-disable-next-line\r\npragma solidity ^0.8.12;\r\n\r\ninterface IApes {\r\n    function confirmChange(uint256 tokenId) external;\r\n\r\n    function ownerOf(uint256 tokenId) external view returns (address owner);\r\n}\r\n",
+  "sourcePath": "C:\\Testing\\contracts\\interface\\IApes.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interface/IApes.sol",
+    "exportedSymbols": {
+      "IApes": [
+        8601
+      ]
+    },
+    "id": 8602,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 8588,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".12"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:24:30"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IApes",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 8601,
+        "linearizedBaseContracts": [
+          8601
+        ],
+        "name": "IApes",
+        "nameLocation": "105:5:30",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "170ef8b5",
+            "id": 8593,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "confirmChange",
+            "nameLocation": "127:13:30",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8591,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8590,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "149:7:30",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8593,
+                  "src": "141:15:30",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8589,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "141:7:30",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "140:17:30"
+            },
+            "returnParameters": {
+              "id": 8592,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "166:0:30"
+            },
+            "scope": 8601,
+            "src": "118:49:30",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "6352211e",
+            "id": 8600,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "ownerOf",
+            "nameLocation": "184:7:30",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8596,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8595,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "200:7:30",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8600,
+                  "src": "192:15:30",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8594,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "192:7:30",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "191:17:30"
+            },
+            "returnParameters": {
+              "id": 8599,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8598,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nameLocation": "240:5:30",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8600,
+                  "src": "232:13:30",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8597,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "232:7:30",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "231:15:30"
+            },
+            "scope": 8601,
+            "src": "175:72:30",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 8602,
+        "src": "95:155:30",
+        "usedErrors": []
+      }
+    ],
+    "src": "67:185:30"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.18+commit.87f61d96.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-02-09T20:40:38.959Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
