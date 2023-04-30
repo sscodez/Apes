@@ -2,7 +2,7 @@
 Apes Contract
 This is a smart contract written in Solidity for a game called "Apes". The game allows users to purchase lootboxes, which contain randomized virtual items called "traits". The traits are stored on the Ethereum blockchain and can be traded or sold.
 
-Installation
+<h2>Installation</h2>
 To install the contract, you will need to have the following installed on your machine:
 
 Node.js
@@ -31,8 +31,9 @@ To interact with the contract on the Ethereum network:
 css
 Copy code
 truffle console --network live
-License
+
+<h2>License</h2>
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Disclaimer
+<h2>Disclaimer</h2>
 This project is for educational and experimental purposes only. It is not intended to be used in a production environment and the authors do not take any responsibility for any loss of funds or damages caused by the use of this project. Use at your own risk.
